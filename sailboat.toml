@@ -13,7 +13,7 @@ description = ""
 url = "https://github.com/cole-wilson/parity"
 keywords = ""
 license = "none"
-latest_build = "0.0.3+ecce129.1"
+latest_build = "0.0.4"
 release-notes = "Rename and repo change"
 latest_release = "0.0.3"
 
@@ -21,7 +21,7 @@ latest_release = "0.0.3"
 # Resource Setup:
 [resources]
 icns = ""
-data_files = [ "*.p",]
+data_files = []
 modules = [ "typing", "adicity",]
 file = ""
 no_import = []
@@ -41,7 +41,8 @@ bundle_id = "com.colewilson.golfity"
 [build.actions]
 
 [build.pypi.commands]
-parity = "__main__._main"
+golf = "__main__._main"
+golfity = "__main__._main"
 
 [build.pypi.entry_points]
 

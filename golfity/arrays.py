@@ -109,7 +109,7 @@ class Array:
 
 	def __matmul__(self, other):
 		print('What are you doing???')
-		return Array()
+		return Array('maTMule!')
 
 	def __eq__(self, other):
 		return self.items == other.items
@@ -165,4 +165,5 @@ def expandarray(array):
 			else:
 				out.extend(__expandhelper(part))
 		return out
-	return Array(*__expandhelper(array))
+	out = Array(*__expandhelper(array))
+	return out

@@ -26,9 +26,9 @@ except FileNotFoundError:
 
 options = {
 	"name": "golfity",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"scripts": [],
-	"entry_points": {'console_scripts': ['parity=golfity.__main__:_main']},
+	"entry_points": {'console_scripts': ['golf=golfity.__main__:_main', 'golfity=golfity.__main__:_main']},
 	"author": "Cole Wilson",
 	"author_email": "cole@colewilson.xyz",
 	"description": "",
@@ -39,7 +39,7 @@ options = {
 	"install_requires": ['typing', 'adicity'],
 	"classifiers": ["Programming Language :: Python :: 3"],
 	"python_requires": '>=3.6',
-	"package_data": {"": ['*.p'], },
+	"package_data": {"": [], },
 	"license": "none",
 	"keywords": '',
 	"setup_requires": ['wheel'],
