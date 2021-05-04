@@ -1,0 +1,56 @@
+#            _  _  _                _   
+#  ___ __ _ (_)| || |__  ___  __ _ | |_ 
+# (_-</ _` || || || '_ \/ _ \/ _` ||  _|
+# /__/\__,_||_||_||_.__/\___/\__,_| \__|
+                                      
+# Basic Setup:
+name = "Golfity"
+short_name = "golfity"
+email = "cole@colewilson.xyz"
+author = "Cole Wilson"
+short_description = ""
+description = ""
+url = "https://github.com/cole-wilson/parity"
+keywords = ""
+license = "none"
+latest_build = "0.0.3+ecce129.1"
+release-notes = "l"
+latest_release = "0.0.2"
+
+
+# Resource Setup:
+[resources]
+icns = ""
+data_files = [ "*.p",]
+modules = [ "typing", "adicity",]
+file = ""
+no_import = []
+
+
+# Plugin Commands:
+
+
+# Build Routines:
+[build.pyinstaller]
+type = 1
+mac = true
+windows = true
+unix = true
+bundle_id = "com.colewilson.golfity"
+
+[build.actions]
+
+[build.pypi.commands]
+parity = "__main__._main"
+
+[build.pypi.entry_points]
+
+
+# Release Routines:
+
+
+# Other:
+[git]
+
+
+# Thank you for using Sailboat!
