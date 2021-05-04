@@ -51,6 +51,7 @@ parity = "__main__._main"
 
 # Other:
 [git]
+github = "cole-wilson/golfity"
 
 
 # Thank you for using Sailboat!
