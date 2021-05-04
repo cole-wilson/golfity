@@ -14,8 +14,8 @@ url = "https://github.com/cole-wilson/parity"
 keywords = ""
 license = "none"
 latest_build = "0.0.3+ecce129.1"
-release-notes = "l"
-latest_release = "0.0.2"
+release-notes = "Rename and repo change"
+latest_release = "0.0.3"
 
 
 # Resource Setup:
