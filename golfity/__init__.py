@@ -12,7 +12,7 @@ class SkipIteration(Exception):
     pass
 
 
-Golfity = Adicity('Golfity', '*')
+Golfity = Adicity('Golfity')
 
 Golfity.ignore(r'\s')
 Golfity.ignore(r'[\(\)]')
