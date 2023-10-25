@@ -19,7 +19,7 @@ Golfity.ignore(r'[\(\)]')
 Golfity.ignore(r'\n')
 Golfity.ignore(r',')
 Golfity.ignore(r'".*?"')
-Golfity.ignore(r'^".*?$')
+Golfity.ignore(r'".*?$')
 
 Golfity.token(r'\+', custom_name='ADDITION')(lambda a, b: a + b)
 Golfity.token(r'-', custom_name='SUBTRACTION')(lambda a, b: a - b)
