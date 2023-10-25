@@ -19,6 +19,11 @@ a(100, I) { 					" loop 100 times, incrementing the I variable
 }
 " Note the extra () and {} usage, which is valid yet unnecessary.
 ```
+## Install
+`pip3 install golfity`
+
+
+`golfity <filename>` or just use the REPL: `golfity`
 
 ## Functions
 Golfity implements the following functions which you can use:
